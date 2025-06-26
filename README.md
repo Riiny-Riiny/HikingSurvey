@@ -21,7 +21,17 @@ A beautiful, privacy-first SwiftUI app for collecting, analyzing, and visualizin
 
 ## Screenshots
 
-(Add screenshots here for UI, summary view, and theming.)
+### Home Screen
+![Home Screen](assets/homescreen.png)
+
+### Survey & Sentiment Analysis
+![Survey Screen](assets/survey.png)
+
+### Theme Selection
+![Theme Selection](assets/theme2.png)
+
+### Privacy Policy
+![Privacy Policy](assets/privacy.png)
 
 ## Getting Started
 
