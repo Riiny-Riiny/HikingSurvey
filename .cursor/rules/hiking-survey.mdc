@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+name: HikingSurvey
+description: SwiftUI app for collecting and analyzing hiking opinions using sentiment analysis.
+language: Swift
+framework: SwiftUI, NaturalLanguage
+cursor:
+  goals:
+    - Build a polished survey app that evaluates and visualizes sentiment from user responses.
+    - Use Apple’s NaturalLanguage for local NLP (no external API).
+    - Maintain clean MVVM or modular SwiftUI structure.
+    - Optimize the UI for simplicity, readability, and performance.
+  restrictions:
+    - Do not use UIKit.
+    - Avoid adding external sentiment APIs unless requested.
+    - Keep data local (no backend).
+  preferred_patterns:
+    - Use `@StateObject` and `ObservableObject` to manage state.
+    - Use enums for clean sentiment mapping.
+    - Use `.task {}` or `.onAppear` to trigger async scoring.
+  file_structure:
+    - ContentView.swift (Main view)
+    - Response.swift (Model)
+    - ResponseView.swift (UI component)
+    - Scorer.swift (Sentiment logic)
+    - Sentiment.swift (Enum and icon mapping)
+  testing:
+    - Suggest adding unit tests for sentiment scoring.
+    - Consider UI previews for different sentiment responses.
